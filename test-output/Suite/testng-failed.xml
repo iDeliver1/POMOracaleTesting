@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.AP.qa.util.TestNGListner"/>
+  </listeners>
+  <test thread-count="2" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.AP.qa.test.TC003_Reorder_Products_Checkout_3">
+        <methods>
+          <include name="ReorderTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.AP.qa.test.TC003_Reorder_Products_Checkout_3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
